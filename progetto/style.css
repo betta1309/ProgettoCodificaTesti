@@ -1,0 +1,143 @@
+html {
+	scroll-behavior:smooth; 
+}
+
+body {
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	background-color: #9999ff;
+	font-family: 'Lekton', sans-serif;
+	color: black;
+}
+
+.sezione  {
+	margin: 0;
+	padding: 60px 20px;
+}
+
+h1 {
+	padding-left: 20px;
+}
+
+
+nav { 
+	background:#000; 
+	height:52px; 
+	width:100%;
+	position:fixed;/*relative*/ 
+	overflow:hidden;
+	z-index:100;
+	top:0;
+	padding:0; 
+	margin:0;	
+	float:none;
+	border:none;
+}
+		
+nav a {
+	position:auto;
+	display:block;
+	float:left;
+	width: 20%;
+	padding: 15px 25px;
+	text-align:center;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration:none;
+	color:#FFF; 
+}
+
+#home {
+	height:100vh;
+}
+
+.container {
+	margin-bottom: 20px;
+	height: 100vh;
+}
+
+
+.immagine, .testo {
+	display:inline-block;
+	width:45vw;
+	height: 600px;
+	vertical-align: middle;
+}
+
+img {
+	height: auto;
+    max-width: 100%;
+}
+
+.immagine, .testo {
+	display:inline-block;
+	height: 600px;
+	vertical-align: middle;
+}
+
+.immagine {
+	text-align: center;
+	width:45vw;
+}
+
+.testo {
+	overflow-y: auto;
+	scrollbar-color: #cc6699 #C2D2E4;
+	scrollbar-width: thin;
+}
+
+.testo::-webkit-scrollbar {
+    width: 15px;
+    height: 15px;
+}
+
+.testo::-webkit-scrollbar-track-piece  {
+    background-color: #C2D2E4;
+}
+
+.testo::-webkit-scrollbar-thumb:vertical {
+    height: 30px;
+    background-color: #cc6699;
+}
+
+.solotesto {
+	height: 85vh;
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+
+
+
+#c161 {
+	background-image: linear-gradient(#9999ff, #cc6699, #9999ff);
+	background-size: cover;
+}
+
+#c224 {
+	background-image: linear-gradient(#9999ff, #ccccb3, #9999ff);
+	background-size: cover;
+}
+
+
+/* scrollbar, w3schools */
+
+ /* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+} 

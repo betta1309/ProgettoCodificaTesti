@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="chiarabettini.xsl"?>
+<!DOCTYPE teiCorpus SYSTEM "chiarabettini.dtd">
+
+<teiCorpus version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Cartoline - Edizione digitale</title>
+				<respStmt>
+					<resp>transcription by</resp>
+					<name xml:id="CB">Chiara Bettini</name>
+				</respStmt>
+				<!-- ENTE DI APPARTENENZA -->
+				<respStmt>
+					<resp>Ente di appartenenza</resp>
+					<name type="università" xml:id="UNIPI">Università di Pisa</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition>Studenti di Codifica di testi, corso triennale di Informatica Umanistica, Università di Pisa</edition>
+				<respStmt>
+					<resp>codifica di</resp>
+					<name ref="#CB" />
+				</respStmt>
+				<respStmt>
+					<resp>Compilatore</resp>
+					<name xml:id="XY2">Tommaso Castagneto</name>
+				</respStmt>
+				<respStmt>
+					<resp>Responsabile scientifico</resp>
+					<name xml:id="GP">Giacomo Paolicchi</name>
+					<name xml:id="ES">Enrica Salvatori</name>
+				</respStmt>
+				<respStmt>
+					<resp>Funzionario responsabile</resp>
+					<name xml:id="ER">E. Ratti</name>
+				</respStmt>
+			</editionStmt>			
+			<publicationStmt>
+				<p>Progetto di Codifica di testi a.a. 2018-2019</p>
+			</publicationStmt>
+			<sourceDesc>
+				<listPerson>
+					<person xml:id="GC">
+						<persName>
+							<forename>Giovanni</forename>
+							<surname>Coliola </surname>
+						</persName>
+						<sex>M</sex>
+						<occupation n="1">soldato?</occupation>
+						<note></note>
+					</person>
+					<person xml:id="OT">
+						<persName>
+							<forename>Oliva</forename>
+							<surname>Turtura</surname>
+						</persName>
+						<sex>F</sex>
+						<note></note>
+					</person>
+				</listPerson>
+				<listPlace>
+					<place xml:id="RV">
+						<placeName>Ravenna</placeName>
+						<settlement type="località">città</settlement>
+						<district type="comune">Ravenna</district>
+						<district type="provincia">RV</district>
+						<country key="N">IT</country>
+					</place>
+				</listPlace>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<charDecl>
+				<char xml:id="sLungaDoppie">
+					<charName>S lunga preceduta da s</charName>
+					<charProp>
+						<unicodeName>LATIN SMALL LETTER LONG S</unicodeName>
+						<value>slungaperss</value>
+					</charProp>
+					<mapping type="standard">s</mapping>
+					<note>utilizzata come seconda s per rappresentare una doppia s, ma al contrario della prassi, pone la s lunga dopo la s standard. Normalizzato nel testo.</note>
+				</char>
+			</charDecl>
+		</encodingDesc>
+	</teiHeader>
+	
+	<TEI xmlns="http://www.tei-c.org/ns/1.0"  xml:id="c161">
+		<teiHeader>
+			<fileDesc>
+				<titleStmt>
+					<title>Bambini in barca - Edizione digitale</title>
+					<respStmt>
+						<resp>transcription by</resp>
+						<name ref="#CB" />
+					</respStmt>
+					<!-- ENTE DI APPARTENENZA -->
+					<respStmt>
+						<resp>Ente di appartenenza</resp>
+						<name type="università" ref="#UNIPI" />
+					</respStmt>
+				</titleStmt>
+				<editionStmt>
+					<edition>Studenti di Codifica di testi, corso triennale di Informatica Umanistica, Università di Pisa</edition>
+					<respStmt>
+						<resp>codifica di</resp>
+						<name ref="#CB" />
+					</respStmt>
+					<respStmt>
+						<resp>Compilatore</resp>
+						<name ref="#XY2" />
+					</respStmt>
+					<respStmt>
+						<resp>Responsabile scientifico</resp>
+						<name ref="#GP" />
+						<name ref="#ES" />
+					</respStmt>
+					<respStmt>
+						<resp>Funzionario responsabile</resp>
+						<name ref="#ER" />
+					</respStmt>
+				</editionStmt>			
+				<publicationStmt>
+					<p>Progetto di Codifica di testi a.a. 2018-2019</p>
+				</publicationStmt>
+				<!--<notesStmt><note></note></notesStmt>-->
+				<sourceDesc>
+					<bibl>
+						<title type="custom" resp="#ES">[Bambini in barca]</title>
+						<date>1917</date>
+					</bibl>
+					<msDesc>
+						<msIdentifier>
+							<country>Italia</country>
+							<settlement>La Spezia (SP)</settlement>
+							<repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+							<idno>7694_161_001/002</idno>
+						</msIdentifier>
+						<msContents>
+							<summary>Cartolina Artistica</summary>
+							<textLang>Italiano</textLang>
+						</msContents>
+						<physDesc>
+							<objectDesc>
+								<supportDesc>
+									<support>
+										<objectType>Cartolina</objectType>
+										<material>Carta</material>
+										<dimensions unit="cm">
+											<height>9</height>
+											<width>14</width>
+										</dimensions>
+										<stamp>Francobollo da 5 centesimi del Regno d'Italia</stamp>
+									</support>
+									<condition>Buono</condition>
+								</supportDesc>
+							</objectDesc>
+						</physDesc>
+					</msDesc>
+					<listPlace>
+						<place xml:id="MO">
+							<placeName>Modena</placeName>
+							<settlement type="località">città</settlement>
+							<district type="comune">Modena</district>
+							<district type="provincia">MO</district>
+							<country key="N">IT</country>
+						</place>
+					</listPlace>
+				</sourceDesc>
+			</fileDesc>
+			<profileDesc>
+				<correspDesc>
+					<correspAction type="sent">
+						<persName ref="#GC"/>
+						<placeName ref="#MO" />
+						<date type="postage" when="1917-09-03">3-9.17</date>
+						<date type="writing" when="1917-09-03">li 3/9. 17</date>
+					</correspAction>
+					<correspAction type="received">
+						<persName ref="#OT">Oliva Turtura</persName>
+						<placeName ref="#RV" />
+					</correspAction>
+				</correspDesc>
+				 <textClass>
+					<keywords>
+						<term>Cartolina</term>
+						<term>Cartolina Artistica</term>
+						<term>Bambini in barca</term>
+					</keywords>
+				</textClass>
+				<langUsage>
+					<language ident="it-IT">italiano</language>
+				</langUsage>
+			</profileDesc>
+		</teiHeader>
+		
+		<facsimile xml:id="c161_facs">
+			<surfaceGrp>
+				<surface xml:id="c161_fronte">
+					<graphic url='cartoline/7694-161F.jpg' width='356px' height='553px' />
+				</surface>
+				<surface xml:id="c161_retro">
+					<graphic url='cartoline/7694-161R.jpg' width='356px' height='559px' />
+					<zone ulx="123" uly="6" lrx="350" lry="309" xml:id="c161_r_address" />
+					<zone ulx="20" uly="309" lrx="321" lry="364" xml:id="c161_r_opener" />
+					<zone ulx="39" uly="368" lrx="333" lry="422" xml:id="c161_r_p" />
+					<zone ulx="24" uly="428" lrx="347" lry="522" xml:id="c161_r_closer" />
+				</surface>
+			</surfaceGrp>
+		</facsimile>
+		
+		<text type="cartolina">
+			<body>
+			
+				<div type="fronte">
+					<figure>
+						<!--CORREGGERE URL IN QUELLO FINALE!!-->
+						<graphic url="progetto/images/7694-161F.jpg" />
+						<figDesc>Due bambini di notte in barca</figDesc>
+						<head>[Bambini in barca]</head>
+					</figure>
+					<p hand="#GC">Serietà serena</p>
+				</div>
+			
+				<div type="retro">
+					
+					<div type="testo">
+						<opener facs="#c161_r_opener">
+							<dateline>
+								<placeName ref="#MO">Modena</placeName>, <date when="1917-09-03">li 3/9. 17.</date>
+							</dateline>
+						</opener>
+						<p facs="#c161_r_p">Mille saluti a tutti</p>
+						<closer facs="#c161_r_closer">
+							<signed><persName ref="#GC">Giovannino</persName></signed>
+						</closer>
+					</div>
+					
+					<div type="indirizzo" facs="#c161_r_address">
+						<ab>
+							<address>
+								<addrLine>Gent Sig</addrLine>
+								<addrLine><persName ref="#OT">Oliva Turtura</persName></addrLine>
+								<addrLine>Via Girolamo Ros<g ref="#sLungaDoppie">s</g>i 58</addrLine>
+								<addrLine><hi rend="underline">Ravenna</hi></addrLine>
+							</address>
+						</ab>
+					</div>
+					
+					<div type="stampato" >
+						<ab rend="vertical">Proprietà artistica riservata - Uff. Rev. Stampa Milano 25-4-17 N° 621</ab>
+						<ab rend="bottom-center">226 4</ab>
+					</div>
+					
+					<div type="addizione" rend="top-right">
+						<ab>
+							<num resp="catalogatore">161</num>
+						</ab>
+					</div>
+					
+					<div type="affrancatura">
+						<ab> 
+								<stamp type="francobollo"><note>Francobollo da 5 centesimi del Regno d'Italia</note></stamp>
+								<stamp type="timbro">
+									<mentioned>
+										<unclear reason="illegible">MO</unclear>
+									</mentioned>
+									<mentioned>
+										<unclear reason="illegible">FERROV</unclear>
+									</mentioned>
+									<date when="1917-09-03"><unclear reason="illegible">3-9.17 18</unclear></date>
+								</stamp>
+							</ab>
+					</div>
+					
+				</div>
+				
+			</body>
+		</text>
+		
+	</TEI>
+	
+	<TEI xmlns="http://www.tei-c.org/ns/1.0"  xml:id="c224">
+		<teiHeader>
+			<fileDesc>
+				<titleStmt>
+					<title>Coppia su slittino - Edizione digitale</title>
+					<respStmt>
+						<resp>transcription by</resp>
+						<name ref="#CB" />
+					</respStmt>
+					<!-- ENTE DI APPARTENENZA -->
+					<respStmt>
+						<resp>Ente di appartenenza</resp>
+						<name type="università" ref="#UNIPI" />
+					</respStmt>
+				</titleStmt>
+				<editionStmt>
+					<edition>Studenti di Codifica di testi, corso triennale di Informatica Umanistica, Università di Pisa</edition>
+					<respStmt>
+						<resp>codifica di</resp>
+						<name ref="#CB" />
+					</respStmt>
+					<respStmt>
+						<resp>Compilatore</resp>
+						<name ref="#XY2" />
+					</respStmt>
+					<respStmt>
+						<resp>Responsabile scientifico</resp>
+						<name ref="#GP" />
+						<name ref="#ES" />
+					</respStmt>
+					<respStmt>
+						<resp>Funzionario responsabile</resp>
+						<name ref="#ER" />
+					</respStmt>
+				</editionStmt>
+				<publicationStmt>
+					<p>Progetto di Codifica di testi a.a. 2018-2019</p>
+				</publicationStmt>
+				<!--<notesStmt><note></note></notesStmt>-->
+				<sourceDesc>
+					<bibl>
+						<title type="custom" resp="#ES">[Coppia su slittino]</title>
+						<date>1918</date>
+					</bibl>
+					<msDesc>
+						<msIdentifier>
+							<country>Italia</country>
+							<settlement>La Spezia (SP)</settlement>
+							<repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+							<idno>7694_224_001/002</idno>
+						</msIdentifier>
+						<msContents>
+							<summary>Cartolina Artistica</summary>
+							<textLang>Italiano</textLang>
+						</msContents>
+						<physDesc>
+							<objectDesc>
+								<supportDesc>
+									<support>
+										<objectType>Cartolina</objectType>
+										<material>Carta</material>
+										<dimensions unit="cm">
+											<height>9</height>
+											<width>14</width>
+										</dimensions>
+										<stamp>Francobollo da 10 centesimi del Regno d'Italia</stamp>
+									</support>
+									<condition>Buono</condition>
+								</supportDesc>
+							</objectDesc>
+						</physDesc>
+					</msDesc>
+					<listPlace>
+						<place xml:id="SF">
+							<placeName>San Felice sul Panaro</placeName>
+							<settlement type="località">città</settlement>
+							<district type="comune">San Felice sul Panaro</district>
+							<district type="provincia">MO</district>
+							<country key="N">IT</country>
+						</place>
+					</listPlace>
+				</sourceDesc>
+			</fileDesc>
+			<profileDesc>
+				<correspDesc>
+					<correspAction type="sent">
+						<persName ref="#GC"/>
+						<placeName ref="#SF" />
+						<date type="postage" when="1918-04-29" n="1">29.4.18</date>
+						<date type="postage" when="1918-04-29" n="2">29.4.18</date>
+						<date type="postage" when="1918-04-30" n="3">30.4.18</date>
+						<date type="writing" when="1918-04-27">li 27/4. 18</date>
+					</correspAction>
+					<correspAction type="received">
+						<persName ref="#OT">Oliva Turtura</persName>
+						<placeName ref="#RV" />
+					</correspAction>
+				</correspDesc>
+				 <textClass>
+					<keywords>
+						<term>Cartolina</term>
+						<term>Cartolina Artistica</term>
+						<term>Coppia su slittino</term>
+					</keywords>
+				</textClass>
+				<langUsage>
+					<language ident="it-IT">italiano</language>
+				</langUsage>
+			</profileDesc>
+		</teiHeader>
+		
+		<facsimile xml:id="c224_facs">
+			<surfaceGrp>
+				<surface xml:id="c224_fronte">
+					<!--correggere dimensioni-->
+					<graphic url="cartoline/7694-224F.jpg" width="356px" height="570px" xml:id="c224_f" />
+				</surface>
+				<surface xml:id="c224_retro">
+					<graphic url='cartoline/7694-224R.jpg' width='356px' height='570px' />
+					<zone ulx="124" uly="13" lrx="342" lry="290" xml:id="c224_r_address" />
+					<zone ulx="21" uly="292" lrx="311" lry="336" xml:id="c224_r_opener" />
+					<zone ulx="7" uly="338" lrx="352" lry="402" xml:id="c224_r_p_1" />
+					<zone ulx="6" uly="405" lrx="351" lry="420" xml:id="c224_r_p_2" />
+					<zone ulx="6" uly="423" lrx="354" lry="554" xml:id="c224_r_p_3" />
+					<zone ulx="25" uly="557" lrx="322" lry="569" xml:id="c224_r_closer" />
+				</surface>
+			</surfaceGrp>
+		</facsimile>
+		
+		<text type="cartolina">
+			<body>
+			
+				<div type="fronte">
+					<figure>
+						<!--CORREGGERE URL IN QUELLO FINALE!!-->
+						<graphic url="cartoline/7694-224F.jpg" />
+						<figDesc>Una coppia su di uno slittino in mezzo alla neve</figDesc>
+						<head>[Coppia su slittino]</head>
+					</figure>
+				</div>
+			
+				<div type="retro">
+				
+					<div type="testo">
+						<opener facs="#c224_r_opener">
+							<dateline>
+								<placeName ref="#SF">S. Felice</placeName> <date when="1918-04-27">li 27/4. 18.</date>
+							</dateline>
+							<salute><persName ref="OT">Oliva</persName> mia,</salute>
+						</opener>
+						<p facs="#c224_r_p_1">
+							<lb />Trovomi da tre giorni a letto 
+							<lb />con febbre e forte catarro <w>bron<pc force="weak">-</pc><lb />chiale</w>, domani tenterò di alzarmi.
+						</p>
+						<p facs="#c224_r_p_2">
+							<lb />Ormai la fase acuta è pas<g ref="#sLungaDoppie">s</g>ata.
+						</p>
+						<p facs="#c224_r_p_3">
+							<lb />Qui su questo benedetto passo spira 
+							<lb />cattiva aria per me e <unclear reason="illegible">forse</unclear> anche 
+							<lb />per molti altri, piove, piove, e piove 
+							<lb />sempre. Mi sento tanto stanco 
+							<lb />e avvilito, come non mai ho 
+							<lb />la nostalgia di tante cose belle e 
+							<lb />il desiderio d'amore puris<g ref="#sLungaDoppie">s</g>imo,
+							<lb />d'un tuo sguardo, d'un tuo sospiro.
+						</p>
+						<closer facs="#c224_r_closer">
+							<lb />
+								<salute>Baci tuo</salute>
+								<signed><persName ref="#GC">Giovannino</persName></signed>
+						</closer>
+					</div>
+					
+					<div type="indirizzo" facs="#c224_r_address">
+						<ab>
+							<address>
+								<addrLine>Gent Sig</addrLine>
+								<addrLine><persName ref="#OT">Oliva Turtura</persName></addrLine>
+								<addrLine>Via Girolamo Ros<g ref="#sLungaDoppie">s</g>i 58</addrLine>
+								<addrLine><hi rend="underline">Ravenna</hi></addrLine>
+							</address>
+						</ab>
+					</div>
+					
+					<div type="stampato">
+						<ab rend="bottom-left">Visto Rev. Stampa - Milano 1920</ab>
+						<ab rend="bottom-center">918/5</ab>
+					</div>
+					
+					<div type="addizione" rend="top-right">
+						<ab>
+							<num resp="catalogatore">224</num>
+						</ab>
+					</div>
+					
+					<div type="affrancatura">
+						<ab> 
+								<stamp type="francobollo"><note>Francobollo da 10 centesimi del Regno d'Italia</note></stamp>
+								<stamp type="timbro" n="1">
+									<mentioned>39 - 12</mentioned>
+									<mentioned><placeName ref="#SF">SAN FELICE SUL PANARO</placeName></mentioned>
+									<date when="1918-04-29">29. 4. 18</date>
+								</stamp>
+								<stamp type="timbro" n="2">
+									<mentioned>39 - 12</mentioned>
+									<mentioned><placeName ref="#SF">SAN FELICE SUL PANARO</placeName></mentioned>
+									<date when="1918-04-29">29. 4. 18</date>
+								</stamp>
+								<stamp type="timbro" n="3">
+									<mentioned>
+										<unclear reason="illegible">AR</unclear>
+									</mentioned>
+									<date when="1918-04-30"><unclear reason="illegible">23. 4.</unclear></date>
+								</stamp>
+							</ab>
+					</div>
+					
+				</div>
+				
+			</body>
+		</text>
+		
+	</TEI>
+	
+</teiCorpus>
